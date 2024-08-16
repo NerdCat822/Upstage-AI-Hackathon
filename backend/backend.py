@@ -10,6 +10,6 @@ app = FastAPI()
 
 @app.post("/TaxSelfRAG")
 def PostTaxSelfRAG(input: InputQuery):
-    response = Tax_Self_RAG(InputQuery.file, 
-                            InputQuery.text)
+    response = Tax_Self_RAG(input.file, 
+                            input.text)
     return {"reponse": response}
