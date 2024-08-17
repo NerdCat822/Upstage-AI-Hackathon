@@ -1,0 +1,657 @@
+[
+    {
+        "prompt": "Do I need to lodge a tax return in 2024?",
+        "completion": "Work out if you need to lodge an income tax return for 2024. If any of the following reasons apply to you, you must lodge a tax return: 1) During 2023–24, you were an Australian resident and either paid tax under PAYG or had tax withheld. 2) You were eligible for the seniors and pensioners tax offset with income over specific thresholds. 3) You received certain government payments and your taxable income was over $21,884. 4) You had other specific taxable income thresholds or circumstances."
+    },
+    {
+        "prompt": "What are the income thresholds for lodging a tax return in 2024?",
+        "completion": "The income thresholds include $18,200 for full-year residents, $416 for those under 18 with non-wage income, and specific thresholds for foreign residents and those with other special circumstances."
+    },
+    {
+        "prompt": "What happens if I have an accumulated Higher Education loan programme debt and am a foreign resident?",
+        "completion": "If you had an accumulated HELP, VSL, or TSL debt on 1 June 2023, and your repayment income including foreign-sourced income was more than $12,887, you must lodge a tax return."
+    },
+    {
+        "prompt": "What are the specific reasons that require lodging a tax return in 2024?",
+        "completion": "Specific reasons include having reportable fringe benefits, reportable employer superannuation contributions, carrying on a business, making a loss, or receiving a superannuation lump sum with certain elements."
+    },
+    {
+        "prompt": "What should I do if I am managing a deceased estate for someone who died during 2023-24?",
+        "completion": "Consider all reasons for lodging a tax return on behalf of the deceased. If a tax return is not required, complete the Non-lodgment advice 2024. If required, see Completing individual information in your tax return 2024."
+    },
+    {
+        "prompt": "Can I claim a refund of franking credits if I don't need to lodge a tax return?",
+        "completion": "Yes, if you received franking credits and don’t need to lodge a tax return, you may claim a refund by using Refund of franking credits application and instructions 2024 (NAT 4105)."
+    },
+    {
+        "prompt": "What should I do if I don't need to lodge a tax return?",
+        "completion": "If you don’t need to lodge a tax return, complete the Non-lodgment advice 2024 unless certain conditions apply, such as previously informing the ATO that you don't need to lodge in future years."
+    },
+    {
+        "prompt": "Who can help me complete my tax return?",
+        "completion": "You can get help from a family member or friend (without charging a fee), Tax Help (a free service for people earning around $60,000 or less), or a registered tax agent (who can charge a fee)."
+    },
+    {
+        "prompt": "When is the deadline for lodging my tax return in 2024?",
+        "completion": "The deadline is 31 October 2024 if you are lodging your own return. Registered tax agents may have later deadlines, but you must engage them before 31 October."
+    },
+    {
+        "prompt": "Where do I send my completed tax return?",
+        "completion": "Within Australia, send it to the Australian Taxation Office, GPO Box 9845, in your nearest capital city. From overseas, send it to GPO Box 9845, SYDNEY NSW 2001, AUSTRALIA."
+    },
+    {
+        "prompt": "How long will it take to receive my notice of assessment?",
+        "completion": "You should receive your notice of assessment within 10 business days if lodged online or within 50 business days if lodged on paper."
+    },
+    {
+        "prompt": "What should I do if I have a complaint about the ATO?",
+        "completion": "You can lodge a complaint by phone, through the National Relay Service, online, or by writing to the ATO at PO Box 1271, ALBURY NSW 2640. You can also escalate your complaint if not satisfied."
+    },
+    {
+        "prompt": "What is new for the 2024 tax return?",
+        "completion": "New initiatives for 2024 include a new cents per kilometre rate of 85c for work-related car expenses, changes to the Trust income schedule requirements, and updates to the effective life determination for depreciating assets."
+    },
+    {
+        "prompt": "What is the cents per kilometre rate for work-related car expenses in 2024?",
+        "completion": "The cents per kilometre rate for work-related car expenses is 85c for the 2024 income year."
+    },
+    {
+        "prompt": "Do I need to complete a Trust income schedule in 2024?",
+        "completion": "Yes, if you received distributions from trusts, you must complete the Trust income schedule 2024 and attach it to your tax return."
+    },
+    {
+        "prompt": "How do I claim self-education deductions in 2024?",
+        "completion": "From 2024, claim all eligible deductions for work-related self-education expenses at question D4 Work-related self-education expenses."
+    },
+    {
+        "prompt": "Do I need the supplementary tax return instructions for 2024?",
+        "completion": "You may need the supplementary instructions if your tax return includes items like income from partnerships, trusts, capital gains, or foreign source income."
+    },
+    {
+        "prompt": "How to complete individual information in your tax return for 2024?",
+        "completion": "It is important that you complete the individual information on pages 1 and 2 of your tax return accurately to avoid delays in processing. This includes providing your Tax File Number (TFN), confirming your Australian residency status, updating any changes in your name, indicating whether you need to lodge future tax returns, and providing electronic funds transfer (EFT) details for refunds."
+    },
+    {
+        "prompt": "How to find your Tax File Number (TFN) for the 2024 tax return?",
+        "completion": "You can find your TFN online in ATO online services through your myGov account, on your income statement, or on your last Notice of Assessment (NOA). Although quoting your TFN on your tax return is not mandatory, not doing so may delay your assessment."
+    },
+    {
+        "prompt": "Are you an Australian resident for tax purposes in 2024?",
+        "completion": "If you were an Australian resident for tax purposes for all of 2023–24, print X in the Yes box. If you were a resident for part of the year, also complete question A2 Part-year tax-free threshold in your tax return. You are generally considered a resident if you have lived in Australia permanently or stayed for more than 6 months, among other criteria."
+    },
+    {
+        "prompt": "What to do if your name has changed since your last tax return?",
+        "completion": "To update your name on the ATO records, follow the guidelines provided on how to update your name."
+    },
+    {
+        "prompt": "What if you may not need to lodge an Australian tax return in the future?",
+        "completion": "This may be your last tax return if your future taxable income will be below the tax-free threshold, your only income will be from an Australian Government pension, or you are moving overseas permanently. Depending on your situation, indicate Yes, No, or Don't know."
+    },
+    {
+        "prompt": "What to do when completing a tax return for a deceased estate in 2024?",
+        "completion": "If you are completing a tax return for someone who has died, write 'Deceased estate' at the top of page 1, print X in the No box at 'Will you need to lodge an Australian tax return in the future?', and the executor or administrator must sign the tax return."
+    },
+    {
+        "prompt": "How to provide electronic funds transfer (EFT) details in your 2024 tax return?",
+        "completion": "Provide your financial institution account details to receive any refund owing to you. This includes your Bank State Branch (BSB) number, account number, and account name. Refunds can only be paid into a recognized financial institution account located in Australia."
+    },
+    {
+        "prompt": "How to declare salary or wages in your 2024 tax return?",
+        "completion": "Declare income from salary or wages from which tax was withheld, including salary, wages, commissions, bonuses, part-time or casual work, parental leave pay, and other similar income. You will need your income statement, PAYG payment summary, or a comparable statement from each employer or payer."
+    },
+    {
+        "prompt": "How to declare allowances, earnings, tips, or directors' fees in your 2024 tax return?",
+        "completion": "Declare payments of income from working, including allowances, payments for services, fees, tips, gratuities, and income from insurance policies. You will need your income statements, payment summaries, or comparable statements."
+    },
+    {
+        "prompt": "How to declare lump sum payments from your employer in your 2024 tax return?",
+        "completion": "Declare lump sum payments received from your employer for unused annual or long service leave at this question. Do not include early retirement or genuine redundancy payments shown at 'Lump sum D' on your income statements."
+    },
+    {
+        "prompt": "How to declare employment termination payments (ETPs) in your 2024 tax return?",
+        "completion": "Declare employment termination payments received due to the termination of your employment, such as gratuity, severance pay, payments in lieu of notice, and compensation for loss of job. You will need your income statement or PAYG payment summary for employment termination payments."
+    },
+    {
+        "prompt": "How to declare Australian Government allowances and payments in your 2024 tax return?",
+        "completion": "Declare Australian Government payments such as JobSeeker, youth allowance, Austudy, and other specified benefits. If you received these payments, you might be entitled to a beneficiary tax offset, which will be calculated automatically by the ATO."
+    },
+    {
+        "prompt": "How to declare Australian Government pensions and allowances in your 2024 tax return?",
+        "completion": "Declare Australian Government pensions and allowances such as age pension, carer payment, disability support pension (if you have reached age-pension age), and other similar payments. You may be entitled to a tax offset on this income."
+    },
+    {
+        "prompt": "How to declare Australian annuities and superannuation income streams in your 2024 tax return?",
+        "completion": "Declare income received from Australian annuities and superannuation income streams, including account-based income streams, capped defined benefit income streams, and others. You may also be eligible for tax offsets, including the seniors and pensioners tax offset and superannuation income stream tax offset."
+    },
+    {
+        "prompt": "How to declare Australian superannuation lump sum payments in your 2024 tax return?",
+        "completion": "Declare Australian superannuation lump sum payments or superannuation death benefit payments received from superannuation funds, approved deposit funds, retirement savings account providers, and life insurance companies. Do not include tax-free components of any superannuation lump sum."
+    },
+    {
+        "prompt": "How to declare attributed personal services income in your 2024 tax return?",
+        "completion": "Declare personal services income attributed to you, which may include income paid to a personal services entity or directly to you. You will need your PAYG payment summary – business and personal services income."
+    },
+    {
+        "prompt": "How to complete the total tax withheld section in your 2024 tax return?",
+        "completion": "Total tax withheld includes the PAYG withholding amounts withheld during the year from the amounts you declare as income. Add up all the amounts under the Tax withheld column at questions 1 to 9 and write the total amount at Total tax withheld."
+    },
+    {
+        "prompt": "How to declare gross interest in your 2024 tax return?",
+        "completion": "Declare interest paid or credited to you from any source in Australia, including accounts and term deposits held with financial institutions in Australia. You will need statements or other documentation from financial institutions showing interest income received during the year."
+    },
+    {
+        "prompt": "How to declare dividends in your 2024 tax return?",
+        "completion": "Declare dividends and distributions paid or credited by Australian companies you had shares in, including dividends applied under a dividend reinvestment plan. You will need your statements from each company showing the amounts and payment dates."
+    },
+    {
+        "prompt": "How to declare discounts on employee share schemes in your 2024 tax return?",
+        "completion": "Declare discounts on employee share scheme interests (ESS interests) received under an employee share scheme. ESS interests include shares, stapled securities, and rights to acquire shares. You will need your Employee share scheme statement from each employer."
+    },
+    {
+        "prompt": "How to complete the Income in your supplementary tax return 2024?",
+        "completion": "If you had certain types of income or losses, such as partnership and trust distributions, personal services income, income from a business, or foreign income, you need to complete the supplementary section of your tax return. After filling out the relevant details in the supplementary section, transfer the Total supplement income or loss amount to the Income section in your main tax return. If it is a loss, indicate this by printing 'L' in the Loss box."
+    },
+    {
+        "prompt": "How to complete the Total income or loss section of your tax return for 2024?",
+        "completion": "To complete the Total income or loss section, first add up all the amounts in the right-hand column for questions 1 to 12. If the amount at label I below question 12 is a loss, subtract it from your total. Otherwise, add it to your total. Write your final amount at 'Total Income or Loss'. If the result is a loss, print 'L' in the Loss box."
+    },
+    {
+        "prompt": "How to complete question D1 Work-related car expenses 2024?",
+        "completion": "Complete question D1 if you incurred work-related car expenses for a car you owned, leased, or hired. You can claim these expenses using either the 'cents per kilometre' method or the 'logbook' method, depending on which gives you the largest deduction. You will need to know or estimate your work-related kilometres. Ensure you keep records such as written evidence or a car logbook, depending on the method used."
+    },
+    {
+        "prompt": "How to complete question D2 Work-related travel expenses 2024?",
+        "completion": "Complete question D2 if you incurred travel expenses in the course of performing your work as an employee. These expenses include public transport, air travel, taxi fares, tolls, parking fees, and accommodation costs for overnight stays. You must have written evidence for your claim, and ensure that the expenses were not reimbursed by your employer."
+    },
+    {
+        "prompt": "How to complete question D3 Work-related clothing, laundry, and dry-cleaning expenses 2024?",
+        "completion": "Complete question D3 if you incurred expenses for work-related clothing, laundry, or dry-cleaning. This includes protective clothing, compulsory uniforms, and occupation-specific clothing. Ensure you keep evidence such as receipts or diary records, especially if your total work-related expenses claim exceeds $300. Use the appropriate code to indicate the type of clothing in the Claim type box."
+    },
+    {
+        "prompt": "How to complete question D4 Work-related self-education expenses 2024?",
+        "completion": "Complete question D4 if you incurred self-education expenses that relate to your work as an employee. These expenses can include course fees, textbooks, and travel related to education. You can claim these expenses if the course maintains or improves skills required for your current job or is likely to lead to increased income. Ensure you keep written evidence to support your claim."
+    },
+    {
+        "prompt": "How to complete question D5 Other work-related expenses 2024?",
+        "completion": "Complete question D5 if you incurred other work-related expenses that have not been claimed elsewhere in your tax return. This can include union fees, tools and equipment, and work-related phone or internet usage. Ensure you have written evidence if your total work-related expenses claim exceeds $300. Separate these costs into categories such as union fees, phone expenses, and tools, and claim accordingly."
+    },
+    {
+        "prompt": "How to complete question D6 Low-value pool deduction 2024?",
+        "completion": "Complete question D6 if you want to claim a deduction for the decline in value of low-cost and low-value assets used for income-producing purposes. You can allocate assets to a low-value pool if they cost less than $1,000 or had an opening adjustable value of less than $1,000 on 1 July 2023. Use the worksheet provided to calculate your deduction and ensure you maintain records of your low-value pool balance for future tax returns."
+    },
+    {
+        "prompt": "How to complete question D7 Interest deductions 2024?",
+        "completion": "Complete question D7 to claim interest expenses incurred in earning interest income declared at question 10 of your tax return. This can include bank fees, management fees, and interest paid on money borrowed to purchase income-producing investments. Ensure you claim only the portion of expenses related to income-producing investments and maintain records of these expenses."
+    },
+    {
+        "prompt": "How to complete question D8 Dividend deductions 2024?",
+        "completion": "Complete question D8 to claim expenses incurred in earning dividends and distributions declared at question 11. These expenses can include management fees, interest on money borrowed to purchase shares, and costs for managing investments. If you received a listed investment company (LIC) dividend, you may also be eligible for a 50% deduction on the LIC capital gain amount. Keep records of all expenses claimed."
+    },
+    {
+        "prompt": "How to complete question D9 Gifts or donations 2024?",
+        "completion": "Complete question D9 to claim a deduction for gifts or donations made to organisations with deductible gift recipient (DGR) status. You need a receipt or other proof of donation, and if you made donations through workplace giving, you should report the total amount donated. Ensure that you only claim for donations where you did not receive something in return, except in certain fund-raising events."
+    },
+    {
+        "prompt": "How to complete question D10 Cost of managing tax affairs 2024?",
+        "completion": "Complete question D10 if you incurred expenses in managing your tax affairs, such as fees paid to a tax adviser, litigation costs, or interest charges imposed by the ATO. Separate these costs into categories and claim accordingly. Keep records of all expenses incurred, including invoices and receipts, as proof of your claim."
+    },
+    {
+        "prompt": "How to complete Total deductions 2024?",
+        "completion": "To complete the total deductions section, add up the deductions you claimed at questions D1 to D10 and D in the Deductions section of your tax return. Write the total amount at TOTAL DEDUCTIONS in your tax return."
+    },
+    {
+        "prompt": "How to complete Subtotal 2024?",
+        "completion": "To complete the subtotal section, subtract the amount at Total deductions from the amount at Total income or loss, and write the result at Subtotal. If the Subtotal is less than zero, print 'L' in the Loss box."
+    },
+    {
+        "prompt": "How to complete Losses question L1 2024?",
+        "completion": "Complete question L1 if you have a tax loss from an earlier year that you may be able to claim as a deduction this year. Follow the steps to determine the amount of tax losses to carry forward or claim, using the provided worksheets for detailed calculations."
+    },
+    {
+        "prompt": "How to complete Taxable income or loss 2024?",
+        "completion": "To declare your total taxable income or loss, transfer the amount at Subtotal to Taxable income or loss. If it's a loss, write 'L' in the Loss box. If you have prior year losses, subtract the amounts from question L1 and write the result."
+    },
+    {
+        "prompt": "How to complete Seniors and pensioners tax offset T1 2024?",
+        "completion": "To claim the seniors and pensioners tax offset, ensure you meet the eligibility criteria based on your pension and rebate income. Select the appropriate code letter for your circumstances and complete the relevant sections of your tax return."
+    },
+    {
+        "prompt": "How to complete Australian superannuation income stream T2 2024?",
+        "completion": "If you received an Australian superannuation income stream, you may be eligible for a tax offset. Calculate any untaxed elements using the Defined benefit income cap tool, and transfer the final amount to question T2 – label S."
+    },
+    {
+        "prompt": "How to complete Total tax offsets 2024?",
+        "completion": "Add up all the tax offsets claimed at questions T2 and T. Write the total amount at TOTAL TAX OFFSETS – label U in your tax return."
+    },
+    {
+        "prompt": "How to complete Medicare levy reduction or exemption M1 2024?",
+        "completion": "To determine if you qualify for a Medicare levy reduction or exemption, assess your taxable income against the provided thresholds. If applicable, calculate the number of days you qualify for a full or half exemption, and report it on your tax return."
+    },
+    {
+        "prompt": "How to complete Medicare levy surcharge M2 2024?",
+        "completion": "Calculate your income for MLS purposes, including any reportable fringe benefits and net investment losses. Determine the number of days you were liable for MLS, and complete the necessary sections on your tax return. If you had private patient hospital cover, include the policy details."
+    },
+    {
+        "prompt": "How to complete Total deductions 2024?",
+        "completion": "To complete the Total deductions section of your tax return, add up the deductions you claimed at questions D1 to D10 and D in the Deductions section of your tax return. Write the total amount at TOTAL DEDUCTIONS in your tax return."
+    },
+    {
+        "prompt": "How to complete Subtotal 2024?",
+        "completion": "To complete the Subtotal section in your tax return, subtract the amount at Total deductions from the amount at Total income or loss. Write the result at Subtotal. If the Subtotal is less than zero, print 'L' in the Loss box."
+    },
+    {
+        "prompt": "How to complete Losses question L1 2024?",
+        "completion": "Complete question L1 if you have a tax loss from an earlier year that you may be able to claim as a deduction this year. Separate your losses into primary production and non-primary production losses, and follow the provided steps to calculate and report these amounts on your tax return."
+    },
+    {
+        "prompt": "How to complete Taxable income or loss 2024?",
+        "completion": "To declare your total taxable income or loss, transfer the amount at Subtotal to the Taxable income or loss section. If the result is a loss, write 'L' in the Loss box. If you have prior year losses, subtract the amounts from question L1 and report the final amount."
+    },
+    {
+        "prompt": "How to complete Seniors and pensioners tax offset T1 2024?",
+        "completion": "To claim the Seniors and pensioners tax offset, determine your eligibility based on government pensions and your rebate income. Select the appropriate code letter that applies to your circumstances and complete the relevant sections in your tax return."
+    },
+    {
+        "prompt": "How to complete Australian superannuation income stream T2 2024?",
+        "completion": "If you received an Australian superannuation income stream, you may be eligible for a tax offset. Use the Defined benefit income cap tool to calculate any untaxed elements and report the final amount in question T2 – label S."
+    },
+    {
+        "prompt": "How to complete Total tax offsets 2024?",
+        "completion": "Add up all the tax offsets claimed at questions T2 and T in your tax return. Write the total amount at TOTAL TAX OFFSETS – label U in your tax return."
+    },
+    {
+        "prompt": "How to complete Medicare levy reduction or exemption M1 2024?",
+        "completion": "Determine if you qualify for a Medicare levy reduction or exemption by assessing your taxable income against the provided thresholds. If applicable, calculate the number of days you qualify for a full or half exemption and report this on your tax return."
+    },
+    {
+        "prompt": "How to complete Medicare levy surcharge M2 2024?",
+        "completion": "Calculate your income for Medicare levy surcharge (MLS) purposes by adding your taxable income, reportable fringe benefits, and net investment losses. Determine the number of days you or your dependents were covered by private health insurance and complete the required sections on your tax return."
+    },
+    {
+        "prompt": "How to complete Private health insurance policy details 2024?",
+        "completion": "Complete this question if you were covered by a private health insurance policy or paid for a dependent-person-only policy during 2023–24. Use the information from your private health insurance statement to complete your tax return. If covered as a dependent person, you are not entitled to a private health insurance rebate but may be exempt from paying the Medicare levy surcharge. Transfer the relevant details, such as health insurer ID, membership number, premiums eligible for rebate, and rebate received, from your statement to your tax return."
+    },
+    {
+        "prompt": "How to complete A1 Under 18 2024?",
+        "completion": "Complete question A1 if you were under 18 years old on 30 June 2024. If you were working full-time, entitled to a disability support pension, or under similar conditions, your income is taxed at normal rates. Otherwise, calculate and report any income you earned from employment, pensions, business, or other sources, subtracting relevant deductions. If your income is solely from primary production, additional information may be required."
+    },
+    {
+        "prompt": "How to complete A2 Part-year tax-free threshold 2024?",
+        "completion": "Complete question A2 if you were not an Australian resident for the entire 2023–24 financial year. Provide the date you became or ceased to be a resident and the number of months you were a resident during the year. This information will be used to calculate your tax-free threshold."
+    },
+    {
+        "prompt": "How to complete A3 Government super contributions 2024?",
+        "completion": "Complete question A3 if you made an eligible personal super contribution and did not claim a deduction for it. Determine if you are eligible for a super co-contribution or low income super tax offset by reviewing your total income, age, and super balance. If eligible, report income from investments, partnerships, and other sources, as well as employment or business income, using the provided worksheets."
+    },
+    {
+        "prompt": "How to complete A4 Working holiday maker net income 2024?",
+        "completion": "Complete question A4 if you earned income in Australia while on a 417 or 462 visa during 2023–24. Calculate your working holiday maker (WHM) net income by adding your WHM income and subtracting deductions related to that income. Report the net income at label D and your home country at label E in your tax return."
+    },
+    {
+        "prompt": "How to complete Income tests 2024?",
+        "completion": "Complete the income tests section to determine your eligibility for tax offsets, benefits, Medicare levy surcharge, and other government entitlements. Write 0 (zero) where the amount is zero. The income tests are used to calculate your eligibility for tax offsets, government benefits, and other liabilities such as Medicare levy surcharge and student loan repayments."
+    },
+    {
+        "prompt": "How to complete IT1 Total reportable fringe benefits amounts 2024?",
+        "completion": "Complete question IT1 if you received reportable fringe benefits amounts of $3,773 or more. Add up all reportable fringe benefits amounts from your payment summaries or income statements and write the total at label N for exempt benefits and label W for non-exempt benefits. If your total is zero, write 0 (zero) at both labels."
+    },
+    {
+        "prompt": "How to complete IT2 Reportable employer superannuation contributions 2024?",
+        "completion": "Complete question IT2 if your employer made reportable employer superannuation contributions on your behalf. Add up the amounts from your payment summaries or income statements and write the total at label T. If there are no reportable contributions, write 0 (zero) at label T."
+    },
+    {
+        "prompt": "How to complete IT3 Tax-free government pensions or benefits 2024?",
+        "completion": "Complete question IT3 if you received any tax-free government pensions or benefits during 2023–24. Add up the total amount of tax-free pensions or benefits and write the total at label U. These amounts are not taxed but are included in your adjusted taxable income for income tests."
+    },
+    {
+        "prompt": "How to complete IT4 Target foreign income 2024?",
+        "completion": "Complete question IT4 if you received any target foreign income during 2023–24. This includes any foreign income that is exempt from Australian tax. Convert all foreign income to Australian dollars using the market exchange rate for 1 July 2023. Add up the amounts and write the total at label V. If there is no target foreign income, write 0 (zero) at label V."
+    },
+    {
+        "prompt": "How to complete IT5 Net financial investment loss 2024?",
+        "completion": "Complete question IT5 if you incurred a net loss from any financial investments. This includes investments in shares, managed investment schemes, or similar financial products. Calculate your net financial investment loss by subtracting your deductions from your income. Write the loss at label X, showing it as a negative amount. If there is no loss, write 0 (zero) at label X."
+    },
+    {
+        "prompt": "How to complete IT6 Net rental property loss 2024?",
+        "completion": "Complete question IT6 if you incurred a net loss from any rental properties you owned. Calculate the net rental property loss by adding up your rental income and subtracting your rental deductions. Write the loss at label Y, showing it as a negative amount. If there is no loss, write 0 (zero) at label Y."
+    },
+    {
+        "prompt": "How to complete IT7 Child support you paid 2024?",
+        "completion": "Complete question IT7 if you paid child support or provided benefits for the maintenance of your child. Add up all amounts paid or benefits provided during 2023–24 and write the total at label Z. This amount will be deducted from your adjusted taxable income for income test purposes."
+    },
+    {
+        "prompt": "How to complete IT8 Number of dependent children 2024?",
+        "completion": "Complete question IT8 if you have any dependent children. A dependent child is defined as your child who is under 21 years old or a full-time student aged 21 to 24. Write the number of dependent children you have at label D. This information is used to determine your eligibility for certain tax offsets and adjustments to the income test threshold."
+    },{
+  "prompt": "How do I complete the income test questions IT1 to IT8 in my 2024 paper tax return?",
+  "completion": "To complete the income test questions IT1 to IT8, you must provide accurate information for each section. These questions are used to determine your eligibility for tax offsets and government benefits. If the amount is zero, you must write 0 (zero). The questions cover topics such as reportable fringe benefits, employer superannuation contributions, tax-free government pensions, target foreign income, net financial investment loss, net rental property loss, child support paid, and the number of dependent children."
+},
+{
+  "prompt": "What information do I need to complete IT1 (Total reportable fringe benefits amounts 2024)?",
+  "completion": "To complete question IT1, you need details from your income statements or PAYG payment summaries that show any reportable fringe benefits amounts received from your employer. If any of these amounts are $3,773 or more, you must include them. You must add up the amounts from exempt and non-exempt fringe benefits and enter the totals at labels N and W respectively. If the total is zero, write 0 (zero)."
+},
+{
+  "prompt": "What do I need to know for IT2 (Reportable employer superannuation contributions 2024)?",
+  "completion": "Question IT2 requires information about reportable employer superannuation contributions made on your behalf, such as contributions under a salary sacrifice arrangement. You need to sum these amounts from your income statements or PAYG payment summaries and enter the total at label T. If the total is zero, write 0 (zero)."
+},
+{
+  "prompt": "How do I complete IT3 (Tax-free government pensions or benefits 2024)?",
+  "completion": "To complete IT3, you must report certain tax-free government pensions or benefits received in the 2023–24 financial year. You should add up all such amounts and enter the total at label U. If you did not receive any tax-free government pensions or benefits, write 0 (zero) at label U."
+},
+{
+  "prompt": "How should I report IT4 (Target foreign income 2024)?",
+  "completion": "For IT4, you need to report any target foreign income received during 2023–24 that was not included in your taxable income. This includes gifts, allowances, or income from foreign sources. Convert all amounts to Australian dollars using the exchange rate on 1 July 2023, then add them up and enter the total at label V. If you received no target foreign income, write 0 (zero) at label V."
+},
+{
+  "prompt": "What is needed for IT5 (Net financial investment loss 2024)?",
+  "completion": "To complete IT5, calculate the net loss from any financial investments, such as shares or managed investment schemes. You must sum up all income and deductible expenses related to your financial investments and enter the net loss at label X. If there is no loss, write 0 (zero) at label X."
+},
+{
+  "prompt": "How do I fill in IT6 (Net rental property loss 2024)?",
+  "completion": "For IT6, you need to calculate the net loss from any rental property you owned. This is done by summing the income and deductible expenses related to your rental properties. If the result is a loss, enter that amount at label Y. If you have no loss, write 0 (zero) at label Y."
+},
+{
+  "prompt": "What should I include in IT7 (Child support you paid 2024)?",
+  "completion": "In IT7, you must report the total amount of child support you paid during 2023–24. Add up all payments or benefits provided for the maintenance of your child and enter the total at label Z. If no child support was paid, write 0 (zero) at label Z."
+},
+{
+  "prompt": "How do I complete IT8 (Number of dependent children 2024)?",
+  "completion": "To complete IT8, enter the number of dependent children you have at label D. A dependent child is defined as your child who is under 21 years old or between 21 and 24 years old and a full-time student. If you have no dependent children, write 0 (zero) at label D."
+},
+{
+  "prompt": "What information do I need for the Spouse details section in the 2024 tax return?",
+  "completion": "For the Spouse details section, you must provide your spouse's name, date of birth, and income details for the 2023–24 financial year. This includes their taxable income, superannuation contributions, government pensions, and any child support paid. If you were married or had a de facto spouse during 2023–24, you must complete this section. If any amount is zero, you must write 0 (zero)."
+},
+{
+  "prompt": "How do I report income from partnerships and trusts in the 2024 tax return?",
+  "completion": "To report income from partnerships and trusts in your 2024 tax return, you need to include your share of any income or loss from these sources at question 13. This includes any credits for tax paid on your behalf and any deductions you can claim. Make sure to separate primary production income from non-primary production income. You will need your distribution statement or advice from the partnership or trust."
+},
+{
+  "prompt": "What is Personal Services Income (PSI) and how do I report it?",
+  "completion": "Personal Services Income (PSI) is income mainly for your personal efforts or skills, such as income earned by contractors or consultants. If you earned PSI as a sole trader and were subject to the PSI rules, you need to complete the Business and professional items schedule 2024 and report the income at question 14 in your supplementary tax return. If you had tax withheld from your PSI, you must also report these amounts."
+},
+{
+  "prompt": "How do I complete the Net income or loss from business section in the 2024 tax return?",
+  "completion": "To complete the Net income or loss from business section, report the income or loss from any business you operated, including sole trader activities, at question 15. This includes both primary production and non-primary production businesses. If you are a small business entity, you may be eligible for the small business income tax offset, which will be calculated based on the information provided."
+},
+{
+  "prompt": "What are deferred non-commercial business losses and how do I report them?",
+  "completion": "Deferred non-commercial business losses are losses from business activities that cannot be claimed in the current year due to specific rules. These losses must be deferred and reported at question 16 in the supplementary tax return. The amount to be deferred is reported separately for primary production and non-primary production losses. You must complete the Business and professional items schedule 2024 to determine the deferral."
+},
+{
+  "prompt": "How do I report net farm management deposits or repayments?",
+  "completion": "To report net farm management deposits or repayments, you must provide details of any deposits or repayments made during 2023–24 at question 17 in the supplementary tax return. Include the total amount of deductible deposits, early repayments under natural disaster or drought exceptions, and repayments held for 12 months or more. Subtract the deposits from the repayments to calculate the net amount."
+},{
+  "prompt": "How do I complete question 18 for Capital gains in my 2024 tax return?",
+  "completion": "To complete question 18 for Capital gains in your 2024 tax return, you must report any capital gains tax events, capital gains, and capital losses that occurred during the year. You should keep detailed records of every relevant transaction. If you paid foreign tax on a capital gain, refer to Part H in question 20 to calculate any foreign income tax offset you may claim. Do not include any 'listed investment company capital gain amount' in this question. If you had no capital gains or your gains were deferred, print X in the 'No' box at label G. If you had a capital gain or loss that wasn't deferred, print X in the 'Yes' box and proceed with the calculation steps as outlined."
+},
+{
+  "prompt": "What types of events are considered capital gains tax (CGT) events?",
+  "completion": "Capital gains tax (CGT) events occur in various situations, such as when you sell or give away an asset like real estate, shares, units in a managed fund, or crypto assets. Other CGT events include an asset being lost or destroyed, receiving an amount for entering into an agreement (e.g., not working in a particular industry for a set time), entering into a conservation covenant over land, receiving a non-assessable payment from a trust or company, or ceasing to be an Australian resident for tax purposes. If you were a beneficiary of a trust or had money invested in a trust that made a capital gain, this also counts as a CGT event."
+},
+{
+  "prompt": "How should I report capital gains or losses on shares in my 2024 tax return?",
+  "completion": "To report capital gains or losses on shares in your 2024 tax return, calculate the gain or loss from selling or giving away your shares, including under a share buy-back arrangement. Even if you did not pay for the shares, such as receiving them through demutualisation, you may have a capital gain or loss when you sell or give them away. If you used dividends to acquire additional shares through a dividend reinvestment plan, these additional shares are subject to CGT if sold or given away. If your shares were declared worthless by a liquidator or administrator, you can claim a capital loss equal to the reduced cost base. If you received a non-assessable payment for your shares, you might need to adjust the cost base, and any excess is considered a capital gain."
+},
+{
+  "prompt": "How do I report capital gains or losses on crypto assets in my 2024 tax return?",
+  "completion": "To report capital gains or losses on crypto assets in your 2024 tax return, declare any gains or losses from selling, trading, exchanging, or using your crypto assets to obtain goods or services. If you acquired crypto assets as an investment and disposed of them, a CGT event occurs. If the disposal is part of a business or a commercial transaction aimed at making a profit, the profit is generally assessable as ordinary income rather than a capital gain. Ensure that all relevant details, including the date of acquisition and disposal, are accurately recorded."
+},
+{
+  "prompt": "What should I include in the Capital gains tax section if I inherited property in 2023–24?",
+  "completion": "If you inherited property in 2023–24 and disposed of it, you may need to report a capital gain or loss in the Capital gains tax section. If the inherited property was the deceased person’s main residence and sold within 2 years of their death, you may not have to pay CGT. However, if the deceased was a foreign resident for more than 6 years at the time of death or if you were a foreign resident when you sold the property, you might need to pay CGT. Report any capital gain or loss after considering these conditions."
+},
+{
+  "prompt": "How do I complete the Foreign entities section (question 19) in my 2024 tax return?",
+  "completion": "To complete the Foreign entities section (question 19) in your 2024 tax return, you must report any direct or indirect interest in a controlled foreign company (CFC) or if you transferred property or services to a non-resident trust. If you had a direct or indirect controlling interest totaling 10% or more in a foreign company or effectively controlled a foreign company, print X in the Yes box at label I and report your attributed foreign income at label K. If you transferred property or services to a non-resident trust, report the attributed foreign income at label B and attach a Schedule of additional information detailing the trust and its income."
+},
+{
+  "prompt": "What do I need to report for Foreign source income and foreign assets or property (question 20) in my 2024 tax return?",
+  "completion": "For question 20 on Foreign source income and foreign assets or property in your 2024 tax return, report any assessable foreign income, such as income from foreign employment, pensions, annuities, superannuation funds, interest, dividends, royalties, rent, business income, or a share of income from a partnership or trust. If you owned or had an interest in assets outside Australia valued at A$50,000 or more, you must report this as well. Convert all foreign income, deductions, and taxes paid to Australian dollars before reporting. If you paid foreign tax on this income, you might be eligible for a foreign income tax offset, which you should calculate in Part H of this question."
+},
+{
+  "prompt": "How do I report rental property income and deductions in my 2024 tax return (question 21)?",
+  "completion": "To report rental property income and deductions in your 2024 tax return (question 21), declare the gross rental income you earned, as well as your share of any deductible expenses related to the rental property. These expenses include interest on loans, capital works deductions, and other rental expenses like maintenance, insurance, and property management fees. If your expenses exceed your income, report a rental loss by printing L in the Loss box. Ensure you have accurate records to support your claims, and if you rented out part of your home, only claim deductions for the portion used for rental purposes."
+},
+{
+  "prompt": "What information do I need to complete the Life insurance companies and friendly society bonuses section (question 22) in my 2024 tax return?",
+  "completion": "To complete the Life insurance companies and friendly society bonuses section (question 22) in your 2024 tax return, report any bonus amounts received from life insurance policies or friendly society bonds if the bonus was received within 10 years of the policy's start date and was in addition to the premiums you paid. Depending on when the bonus was received, you might need to report the whole amount, two-thirds, or one-third of it. Do not include bonuses received after the 10th year or from policies started before 28 August 1982. Keep your policy document and bonus advice for records."
+},
+{
+  "prompt": "How do I report income from forestry managed investment schemes (FMIS) in my 2024 tax return (question 23)?",
+  "completion": "To report income from forestry managed investment schemes (FMIS) in your 2024 tax return (question 23), include any income received from forestry interests held in the FMIS. This includes thinning receipts, sale, or harvest receipts. If you are an initial participant, report the market value of the interest at the time of the CGT event if you no longer hold it. If you still hold the interest, report the amount by which the market value was reduced due to the CGT event. If you are a subsequent participant, use the same process but adjust the reported amounts based on the lesser of the market value or the excess of forestry scheme deductions over incidental forestry scheme receipts."
+},
+{
+  "prompt": "What types of income should be included in the Other income section (question 24) of my 2024 tax return?",
+  "completion": "In the Other income section (question 24) of your 2024 tax return, include any income not covered in other sections, such as amounts released from superannuation funds greater than the liability on the release authority, assessable First home super saver (FHSS) released amounts, lump sum payments in arrears, jury attendance fees, foreign exchange gains, royalties, bonuses from friendly society income bonds, taxable scholarships, investment-related lottery winnings, and income from activities as a special professional. Ensure that all income is accurately categorized, and if you have multiple types of income, provide detailed information on a separate schedule."
+},
+{
+  "prompt": "How do I complete the Total supplement income or loss section in my 2024 tax return?",
+  "completion": "To complete the Total supplement income or loss section in your 2024 tax return, add up all the income amounts from questions 13, 17, 18, 19, 20, 21, 22, 23, and 24. Subtract any loss amounts from questions 13, 17, 20, and 21. The resulting figure is your total supplement income or loss. Write this amount in the Total supplement income or loss section of your tax return. If the result is a loss, print L in the Loss box. Transfer this amount to label I on page 3 of your tax return."
+},{
+  "prompt": "How do I complete the deduction questions D11 to D15 in my paper supplementary tax return?",
+  "completion": "To complete the deduction questions D11 to D15 in your paper supplementary tax return, you need to accurately report any eligible deductions related to foreign pensions, personal superannuation contributions, project pool expenditures, forestry managed investment schemes, and other deductions not claimable elsewhere in your return. Each section requires specific information, such as the deductible amount for undeducted purchase prices (UPP) of foreign pensions or annuities, personal contributions to superannuation funds, capital expenditures allocated to project pools, payments to forestry managed investment schemes, and other allowable deductions. Follow the instructions provided for each deduction question to ensure proper reporting."
+},
+{
+  "prompt": "What is the deductible amount of UPP of a foreign pension or annuity (D11) for 2024?",
+  "completion": "The deductible amount of the Undeducted Purchase Price (UPP) of a foreign pension or annuity (D11) for 2024 is the portion of your pension or annuity that represents a return of your personal contributions, which is tax-free. To claim this deduction, you must calculate the deductible amount by dividing the UPP by a life expectancy factor. If you received certain foreign pensions, such as from Austria, the UK, the Netherlands, Germany, or Italy, specific rules apply to determine the deductible amount. If unsure, you may need to request a determination from the ATO and attach it to your tax return."
+},
+{
+  "prompt": "How do I claim a deduction for personal superannuation contributions (D12) in 2024?",
+  "completion": "To claim a deduction for personal superannuation contributions (D12) in 2024, you must have made contributions from your after-tax income to a complying superannuation fund or retirement savings account (RSA). Before claiming the deduction, you need to provide your super fund or RSA provider with a Notice of intent to claim or vary a deduction for personal super contributions and receive an acknowledgment. Once you have this acknowledgment, complete question D12 on your supplementary tax return by entering the eligible contribution amount and the required details of your super fund or RSA."
+},
+{
+  "prompt": "What expenses can I claim under the Deduction for project pool (D13) in 2024?",
+  "completion": "Under the Deduction for project pool (D13) in 2024, you can claim a deduction for capital expenditure allocated to a project pool, which is connected to a project operated for a taxable purpose. Eligible expenses include those related to creating or upgrading community infrastructure, site preparation, feasibility studies, environmental assessments, and obtaining information for the project. The deduction is spread over the project life, and if the project was abandoned, sold, or disposed of in 2023–24, you may claim the closing pool value and any additional project amounts incurred during the year."
+},
+{
+  "prompt": "How do I claim a deduction for payments made to a forestry managed investment scheme (D14) in 2024?",
+  "completion": "To claim a deduction for payments made to a forestry managed investment scheme (FMIS) under D14 in 2024, you must have held a forestry interest in the FMIS during the year and made payments under a formal agreement. The FMIS must satisfy the 70% direct forestry expenditure rule. Initial participants can claim initial and ongoing payments, while subsequent participants can only claim ongoing payments. The deduction is not allowed if you disposed of the forestry interest within four years, unless it was due to circumstances outside your control."
+},
+{
+  "prompt": "What other deductions can I claim under D15 in 2024 that are not claimable elsewhere?",
+  "completion": "Under D15 in 2024, you can claim deductions for expenses that are not covered under other deduction sections, such as election expenses, income protection insurance premiums, foreign exchange losses, and expenses related to income from the sharing economy. You can also claim debt deductions, Section 40-880 deductions for business-related capital expenditure, and self-education expenses related to satisfying the study requirements of a taxable scholarship. Ensure that you do not include expenses related to employment, business, or investments, as these are covered in other sections of the tax return."
+},
+{
+  "prompt": "How do I complete the Total supplement deductions section of my 2024 tax return?",
+  "completion": "To complete the Total supplement deductions section of your 2024 tax return, follow these steps: 1) Add up all the deduction amounts from questions D11 to D15. 2) Write the total amount in the Total supplement deductions section of your supplementary tax return. 3) Transfer this amount to the label D below question D10 in your main tax return. This section summarizes all your supplementary deductions, which are then included in the overall deduction calculation for your tax return."
+},{
+  "prompt": "How do I complete the tax offset questions T3 to T9 in my paper supplementary tax return?",
+  "completion": "To complete the tax offset questions T3 to T9 in your paper supplementary tax return, you'll need to determine your eligibility for each tax offset based on specific criteria and instructions provided. For each question, you'll follow the steps outlined to calculate the offset amount and then fill in the corresponding labels on your supplementary tax return. Each tax offset has its own set of requirements, so it's important to carefully read through each section to ensure you correctly report your entitlements."
+},
+{
+  "prompt": "What is the process to claim the T3 Superannuation contributions on behalf of your spouse tax offset for 2024?",
+  "completion": "To claim the T3 Superannuation contributions on behalf of your spouse tax offset for 2024, follow these steps: First, ensure you meet the eligibility criteria, including your spouse's income being below $40,000 and both of you being Australian residents when the contributions were made. Then, use Worksheet 1 or Worksheet 2 provided in the instructions to calculate the offset. The offset is 18% of the lesser of $3,000 reduced by $1 for every $1 that your spouse's income exceeds $37,000 or the total contributions made. Finally, report the calculated amount at question T3 – label A in your supplementary tax return."
+},
+{
+  "prompt": "How do I claim a tax offset for living in a zone or serving in an overseas force (T4) in 2024?",
+  "completion": "To claim the tax offset for living in a zone or serving in an overseas force (T4) in 2024, first determine if you are eligible based on your usual place of residence in a remote area of Australia or your service in a specified overseas locality. Calculate the fixed and base amounts of the offset using the provided tables and worksheets. If your situation was simple, you can use the fixed amount from Table 1 directly. For more complex circumstances, such as maintaining dependants, use the additional worksheets to calculate your base amount. Report the final tax offset amount at question T4 – label R in your supplementary tax return."
+},
+{
+  "prompt": "What is the T5 Invalid and invalid carer tax offset and how do I claim it for 2024?",
+  "completion": "The T5 Invalid and invalid carer tax offset allows you to claim a tax offset if you maintained a person who was 16 years old or older and receiving specific government payments. To claim this offset for 2024, confirm eligibility based on the relationship and income of the person you maintained. Use the Invalid and invalid carer tax offset calculator or the provided worksheets to determine the amount you can claim. After calculating the offset, enter the amount at question T5 – label B in your supplementary tax return. Ensure you complete the necessary income test questions and spouse details, if applicable."
+},
+{
+  "prompt": "How do I complete the T6 Landcare and water facility tax offset for 2024?",
+  "completion": "To complete the T6 Landcare and water facility tax offset for 2024, first determine if you have an unused tax offset carried forward from a previous year. If you do, and you don't have any unused net exempt income, simply enter the amount of the carried forward tax offset at question T6 – label T in your supplementary tax return. If you have unused net exempt income, you may need to adjust the tax offset amount by reducing it by $0.30 for every dollar of unused net exempt income. For assistance with calculations, contact the ATO or refer to your notice of assessment."
+},
+{
+  "prompt": "How do I claim the T7 Early stage venture capital limited partnership tax offset for 2024?",
+  "completion": "To claim the T7 Early stage venture capital limited partnership (ESVCLP) tax offset for 2024, first determine if you are entitled to the offset based on your contributions to an ESVCLP or if you have an unused tax offset carried forward from a previous year. Calculate the tax offset as 10% of your contributions to the ESVCLP during 2023–24, with specific exclusions and limitations. If carrying forward unused offsets, adjust for any net exempt income. Report the calculated offset amount at question T7 – label K and the carried forward amount at question T7 – label M in your supplementary tax return."
+},
+{
+  "prompt": "How do I claim the T8 Early stage investor tax offset for 2024?",
+  "completion": "To claim the T8 Early stage investor tax offset for 2024, determine if you are eligible based on your investments in early stage innovation companies and whether you have a carried forward tax offset from a previous year. Calculate your offset by multiplying the total amount paid for eligible shares by 20%, and add any entitlements from partnerships or trusts. The maximum offset you can claim, including carried forward amounts, is $200,000. Adjust for any net exempt income if applicable. Report your 2023–24 tax offset at question T8 – label L and any carried forward amount at label O in your supplementary tax return."
+},
+{
+  "prompt": "What other refundable tax offsets can be claimed at T9 in 2024?",
+  "completion": "At T9 in 2024, you can claim other refundable tax offsets if you are the principal beneficiary of a special disability trust entitled to a tax offset for tax paid by the trustee or if you received exploration credits. If claiming the special disability trust offset, the amount is equal to the tax paid by the trustee. If claiming for exploration credits, the amount is the total value of exploration credits received during the year. Report the total refundable tax offset amount at question T9 – label P and complete the corresponding Code box (S, E, or M) based on the type of offset claimed."
+},
+{
+  "prompt": "How do I complete the Total supplement tax offsets section in my 2024 supplementary tax return?",
+  "completion": "To complete the Total supplement tax offsets section in your 2024 supplementary tax return, follow these steps: 1) Add up all the tax offset amounts from questions T3 to T9 in the right-hand column of your supplementary tax return. 2) Write the total amount at the Total supplement tax offsets section. 3) Transfer this total to label T in your main tax return. This section ensures that all your eligible tax offsets are correctly accounted for in your tax return, which can reduce your overall tax liability."
+},
+{
+  "prompt": "What is the A5 Amount on which family trust distribution tax has been paid for 2024 and how do I report it?",
+  "completion": "The A5 Amount on which family trust distribution tax has been paid for 2024 relates to distributions made to you by a family trust where the family trust distribution tax has already been paid. You don't include these distributions in your assessable income, but they are considered for determining your liability for the Medicare levy surcharge. To report this, calculate the amount of the distribution less any deductible expenses, and enter the result at question A5 – label X in your supplementary tax return. If the result is zero or negative, you do not need to report anything."
+},{
+  "prompt": "What are the different types of amounts that you do not pay tax on in 2024?",
+  "completion": "In 2024, the amounts that you do not pay tax on are categorized into three groups: exempt income, non-assessable non-exempt income, and other non-taxable amounts. Exempt income includes certain Australian Government pensions, allowances, and payments, as well as some education payments, Defence Force payments, and other specific exemptions. Non-assessable non-exempt income includes superannuation lump sum death benefits, certain redundancy payments, and specific superannuation income streams. Other amounts that are not taxable include most child support, volunteer allowances, and government super contributions."
+},
+{
+  "prompt": "How do you calculate Adjusted Taxable Income (ATI) for you and your dependants in 2024?",
+  "completion": "To calculate your Adjusted Taxable Income (ATI) for 2024, add together your taxable income, adjusted fringe benefits total, reportable employer superannuation contributions, deductible personal superannuation contributions, tax-free government pensions, target foreign income, net financial investment loss, and net rental property loss. Subtract any child support payments you made. Your ATI is used to determine eligibility for certain tax offsets, such as the zone or overseas forces tax offset (question T4) and the invalid and invalid carer tax offset (question T5)."
+},
+{
+  "prompt": "What are the special circumstances for reporting non-resident withholding tax in 2024?",
+  "completion": "If you were a foreign resident for part of 2024, you must report non-resident withholding tax on certain income. For interest, include at question 10 any interest received while you were an Australian resident but exclude any interest where withholding tax was deducted while you were a foreign resident. For dividends, exclude fully franked dividends or dividends with conduit foreign income if withholding tax was deducted. If withholding tax wasn't deducted, attach a schedule of additional information to your tax return, detailing the amounts."
+},
+{
+  "prompt": "What are the rules for claiming franking credits under special circumstances in 2024?",
+  "completion": "To claim franking credits under special circumstances in 2024, ensure you meet the 'qualified person' requirements by satisfying the holding period rule, which requires holding shares 'at risk' for at least 45 days. The related payments rule also applies if you were likely to pass the benefit of the dividend to someone else. Dividend washing, where franking credits are claimed twice, is not allowed unless certain conditions are met. If you don't meet these requirements, you must exclude franking credits from your tax return at question 11 – label U."
+},
+{
+  "prompt": "How do I claim deductions for work-related car and travel expenses in 2024?",
+  "completion": "To claim deductions for work-related car and travel expenses in 2024, first determine if the expenses were incurred in the course of performing your job. For car expenses, use question D1 for expenses related to a car you owned or leased. For travel expenses, use question D2 for vehicle expenses with a carrying capacity over one tonne, motorcycles, public transport fares, parking fees, and more. You can also claim deductions for trips between work locations, or between home and work if you met specific conditions such as carrying bulky tools."
+},
+{
+  "prompt": "What is 'rebate income' and how do I calculate it for 2024?",
+  "completion": "Rebate income for 2024 is the total of your taxable income (excluding any assessable First home super saver released amount), adjusted fringe benefits total, reportable employer superannuation contributions, deductible personal superannuation contributions, net financial investment loss, and net rental property loss. Use Worksheet 1 to calculate your rebate income by summing these amounts. Rebate income is used to determine eligibility for certain tax offsets, such as the seniors and pensioners tax offset at question T1."
+},
+{
+  "prompt": "What are the basic rules for claiming deductions for work-related expenses in 2024?",
+  "completion": "To claim deductions for work-related expenses in 2024, you must have incurred the expense yourself and not have been reimbursed. The expense must be directly related to earning your income and not be private, domestic, or capital in nature. If the expense was partly work-related and partly private, only the work-related portion is deductible. You must keep records to substantiate your claims if the total amount exceeds $300. Expenses such as car and travel costs, clothing, and tools may be deductible if they meet these criteria."
+},
+{
+  "prompt": "What is included in the 'Referred publications 2024' for understanding tax obligations?",
+  "completion": "The 'Referred publications 2024' includes a variety of guides and schedules to help you understand your tax obligations and prepare your Individual tax return. These publications cover topics such as business and professional items, deductions for prepaid expenses, employment termination payments, government super contributions, capital gains tax, depreciating assets, foreign income tax offsets, and more. Each guide provides detailed instructions on how to complete specific sections of your tax return and what rules apply."
+},
+{
+  "prompt": "What should I check before lodging my tax return in 2024 to avoid delays?",
+  "completion": "Before lodging your tax return in 2024, ensure that you have completed all relevant sections, including your tax file number, personal details, and any applicable questions such as IT1 to IT8 and M2. Double-check that you've filled out all letter code boxes, written totals in the appropriate sections, and attached any required documents. Make sure you sign and date the Taxpayer's declaration. Using the pre-addressed envelope provided can help avoid delays in processing your return. If you want to estimate your tax, use the Income tax estimator."
+},
+{
+  "prompt": "What should I check before lodging my supplementary tax return in 2024?",
+  "completion": "Before lodging your supplementary tax return in 2024, ensure that you have included your tax file number and name, written totals for sections such as TOTAL SUPPLEMENT INCOME OR LOSS and TOTAL SUPPLEMENT TAX OFFSETS, and transferred these totals to your main tax return where instructed. Verify that you have completed question A5 if required, included spouse details if applicable, filled in any necessary letter code boxes, and attached any required documents. Keep copies of your tax return and all related documents for your records."
+},
+  {
+    "prompt": "What are the tax rates for Australian residents for the 2024-25 income year?",
+    "completion": "The tax rates for Australian residents for the 2024-25 income year are as follows: 0–$18,200: Nil; $18,201–$45,000: 16c for each $1 over $18,200; $45,001–$135,000: $4,288 plus 30c for each $1 over $45,000; $135,001–$190,000: $31,288 plus 37c for each $1 over $135,000; $190,001 and over: $51,638 plus 45c for each $1 over $190,000. Note that these rates do not include the Medicare levy of 2%."
+  },
+  {
+    "prompt": "How can I work out my residency status for tax purposes in Australia?",
+    "completion": "You can work out your residency status for tax purposes in Australia by using the 'Are you a resident?' decision tool if you have come to Australia for work or to live, or the 'Determination of residency status – leaving Australia' tool if you are leaving or have left Australia. These tools will help you determine your residency status for the relevant income year. Your tax residency status may differ from your residency status for other purposes, such as those used by the Department of Home Affairs."
+  },
+  {
+    "prompt": "What are the company tax rates for the 2023-24 income year in Australia?",
+    "completion": "The company tax rates for the 2023-24 income year in Australia are as follows: Base rate entities: 25%; Otherwise: 30%. These rates apply to various types of companies, including corporate limited partnerships, strata title bodies corporate, trustees of corporate unit trusts, and public trading trusts. Additionally, different rates apply to life insurance companies, RSA providers, pooled development funds, credit unions, and not-for-profit companies."
+  },
+  {
+    "prompt": "What is the withholding tax table for weekly payments in 2024?",
+    "completion": "The withholding tax table for weekly payments in 2024 applies to various payments such as salary, wages, allowances, paid parental leave, directors' fees, and more. To calculate the withholding amount, add any allowances and irregular payments to the normal weekly earnings, use the appropriate column in the Withholding lookup tool, and adjust for tax offsets, Medicare levy, and study and training support loans if applicable. For foreign residents, use specific tax rates based on their earnings."
+  },
+    {
+        "prompt": "What is the fortnightly tax table?",
+        "completion": "The fortnightly tax table is a withholding tax table for payments made on a fortnightly basis. It applies to payments such as salary, wages, allowances, paid parental leave, and more, effective from 1 July 2024. This table should also be used for payments made to foreign residents."
+    },
+    {
+        "prompt": "When should I use the Schedule 15 – Tax table for working holiday makers?",
+        "completion": "You should use the Schedule 15 – Tax table for working holiday makers for all payments made to individuals under a working holiday makers visa, including lump sum payments."
+    },
+    {
+        "prompt": "How do I work out the withholding amount for an employee?",
+        "completion": "To work out the withholding amount for an employee: 1) Calculate the employee's total fortnightly earnings, including any allowances. 2) Input the amount into the Withholding lookup tool. 3) Use the appropriate column based on whether the employee is claiming the tax-free threshold or not. Adjust for any tax offsets, Medicare levy, or study and training support loans if applicable."
+    },
+    {
+        "prompt": "What should I do if an employee does not provide their Tax file number (TFN)?",
+        "completion": "If an employee does not provide their TFN within 28 days, you must withhold 47% from any payment to a resident employee and 45% from a foreign resident employee, ignoring any cents. Do not allow for any tax offsets or Medicare levy adjustments."
+    },
+    {
+        "prompt": "What are the extra withholding amounts if there are 27 pays in a financial year?",
+        "completion": "If there are 27 pays in a financial year, the extra withholding amounts are as follows: $12 for fortnightly earnings between $1,750 to $5,149, $26 for earnings between $5,150 to $7,249, and $47 for earnings of $7,250 and over."
+    },
+    {
+        "prompt": "What is the general concessional contributions cap for the 2024–25 income year?",
+        "completion": "The general concessional contributions cap for the 2024–25 income year is $30,000 for all ages."
+    },
+    {
+        "prompt": "How is the General Interest Charge (GIC) rate calculated?",
+        "completion": "The General Interest Charge (GIC) rate is calculated using a base interest rate plus an uplift factor of 7%. The base rate is the 90-day Bank Accepted Bill rate. The GIC is updated quarterly, and the daily rate is derived by dividing the annual rate by the number of days in a calendar year."
+    },
+    {
+        "prompt": "What is the non-concessional contributions cap for the 2024–25 income year?",
+        "completion": "The non-concessional contributions cap for the 2024–25 income year is $120,000. If your total superannuation balance is greater than or equal to the general transfer balance cap at the end of the previous financial year, your cap is nil."
+    },
+    {
+        "prompt": "What happens if I exceed the concessional contributions cap?",
+        "completion": "Excess concessional contributions are included as taxable income and taxed at your marginal tax rate. Individuals making excess contributions after 1 July 2021 will no longer be liable to pay the excess concessional contributions charge."
+    },
+    {
+        "prompt": "How can I claim a tax offset through reduced withholding?",
+        "completion": "To claim a tax offset through reduced withholding, the employee must provide a Withholding declaration. The offset amount is then converted to a fortnightly or monthly value using the Ready reckoner for tax offsets and deducted from the withholding amount."
+    },
+    {
+        "prompt": "What are the foreign resident tax rates for fortnightly earnings?",
+        "completion": "For foreign residents, the tax rates are as follows: 30 cents per dollar for earnings up to $5,191, $1,557 plus 37 cents per dollar over $5,191 for earnings between $5,192 and $7,305, and $2,339 plus 45 cents per dollar over $7,305 for earnings over $7,306."
+    },
+    {
+        "prompt": "What is the excess concessional contributions charge for the July – September 2024 quarter?",
+        "completion": "The excess concessional contributions charge for the July – September 2024 quarter is 7.36%, with a daily rate of 0.020109289617486%."
+    },
+    {
+        "prompt": "What are the GIC rates for the July – September 2024 quarter?",
+        "completion": "The GIC rates for the July – September 2024 quarter are an annual rate of 11.36% and a daily rate of 0.03103825%."
+    },
+    {
+        "prompt": "Do I need to lodge a tax return?",
+        "completion": "Use our ‘Do I need to lodge?’ tool in your ATO online services account to check if you need to lodge: Sign in to myGov. Select ATO from your linked services. Select Manage tax returns. Select Not lodged tab. Under the heading 'Outcome' select Do I need to lodge? for the relevant income year. You can also use our online tool – see Do I need to lodge a return?"
+    },
+    {
+        "prompt": "How do I link my myGov account to the ATO?",
+        "completion": "To link your myGov account to the ATO: Sign in to myGov. Select View and link services. Select Link next to Australian Taxation Office. Follow the prompts to answer 2 questions about your tax record. If you're unable to verify your tax record online, you must phone us. For more information, see: how to create a myGov account and link it to the ATO, the information you need to link myGov to the ATO, what to do when you can't sign in to your myGov account."
+    },
+    {
+        "prompt": "Why is my tax result so different this year?",
+        "completion": "There are several reasons you may receive a lower tax refund than in previous years or a tax bill, including: the low and middle income tax offset has ended, you may receive a lower refund than expected if your credit or refund has been offset against another debt, including a debt on hold with us or debts you have with other government agencies, a change in your personal circumstances. If you lodge your tax return online with myTax, the calculation you receive before you submit the return is an estimate only. The final balance on your notice of assessment may differ for several reasons. If your refund has reduced, the tax you paid throughout the year was closer to your annual tax obligation. If you receive a tax bill, you may be able to prevent this happening in the future."
+    },
+    {
+        "prompt": "Why did I get a tax bill?",
+        "completion": "Getting a tax bill means you didn't have enough tax taken out of your income throughout the year to meet your annual tax or compulsory loan repayment obligations. There are a number of reasons you may get a tax bill – see Why you may receive a tax bill. If you're concerned that you'll get a tax bill again next year, you may be able to prevent this: Check your employer has the right information about you. If you are claiming the tax-free threshold from more than one employer, you may need to pay the extra tax at the end of the year. If you haven't told your employer about your study and training support loan, you may need to pay it at the end of the year. If you earn income from multiple sources, ensure you have paid the correct amount of tax."
+    },
+    {
+        "prompt": "How do I start an online payment plan?",
+        "completion": "If you owe $200,000 or less, the easiest way to set up a payment plan is by: using our online services – you'll need a myGov account linked to the ATO, phoning our automated phone service on 13 72 26, which is available 24 hours a day. You may also be eligible to adjust or cancel an existing payment plan. Before you start, we recommend using our payment plan estimator to work out a plan you can afford. Payment plans accrue interest so it's best to pay off your debt as soon as you can. If you can't afford a payment plan that’s offered online, or you owe more than $200,000, phone us on 13 11 42 during our operating hours to discuss your options."
+    },
+    {
+        "prompt": "When will I get my refund?",
+        "completion": "Most electronically lodged tax returns are processed within 2 weeks. We process paper tax returns manually and this can take up to 10 weeks. The quickest and easiest way to check the progress of your tax return is by using our self-help services. The status of your return may change a number of times as it is processed. If we need more information to finalise your return, we will phone you. Phoning us will not speed up the processing of your tax return. If you’ve received notification that your refund has been processed, remember your refund may take up to 5 business days to be in your nominated bank account (depending on your financial institution)."
+    },
+    {
+        "prompt": "Why do I need to pay Medicare levy and Medicare levy surcharge?",
+        "completion": "The Medicare levy helps fund some of the costs of Australia's public health system (Medicare). The levy is collected from you in the same way as income tax. Generally, your employer takes the levy from your salary or wages at the rate of 2% of your taxable income for the pay period. We then calculate your total Medicare levy for the year when you lodge your tax return. The Medicare levy surcharge is an amount you pay on top of the Medicare levy. You pay the surcharge if both you, your spouse and your dependent children do not have an appropriate level of private patient hospital cover and earn above a certain income."
+    },
+    {
+        "prompt": "What's my tax file number?",
+        "completion": "A tax file number (TFN) is your personal reference number in the tax and superannuation systems. It is free to apply for one. You don’t have to have a TFN, however if you don't have one, more tax will be taken out of payments made to you by your employer or financial institution. You also won’t be able to: apply for government benefits, lodge your tax return electronically, get an Australian business number (ABN). You can find your TFN by checking: ATO online services through myGov, My details in the ATO app, An income statement or payment summary, in letters you've received from us, your notice of assessment if you've lodged a tax return, your superannuation account statement, with your registered tax agent."
+    },
+    {
+        "prompt": "I made a mistake in my tax return. How do I fix it?",
+        "completion": "For more information, see how to amend your tax return."
+    },
+    {
+        "prompt": "I have a study or training support loan, when will I get my indexation refund?",
+        "completion": "The announced changes to the indexation rates for study and training support loans is not yet law. Don’t put off lodging your tax return to wait for the law to change. You should lodge as normal. When the law has changed, we'll apply any indexation credits to your study or training support loan. If your loan is less than $0 after the credit, you may receive a refund for this amount to your nominated bank account – if you have no outstanding tax debts."
+    },
+    {
+        "prompt": "How do I know if it is the ATO contacting me or if it is a scammer?",
+        "completion": "If you think a phone call, SMS, voicemail, email or interaction on social media claiming to be from the ATO isn’t genuine, don't engage with it. You can: verify or report a scam online, use our list of ATO scam alerts for further guidance on ATO impersonation scams. If you've paid or divulged personal information to a scammer, phone us on 1800 008 540 to report it."
+    }
+]
+
+
+
+
+
+
+
+
