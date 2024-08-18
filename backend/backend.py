@@ -3,13 +3,21 @@ from pydantic import BaseModel
 from FuncUpstageHackathon import *
 
 class InputQuery(BaseModel):
-    # file: pdf
     text: str
 
 app = FastAPI()
 
+"""
+@app.post("/GetReceipt")
+def PostGetReceipt(receipt):
+    # receipt: jpg format
+    response = Get_Receipt_Information(receipt)
+    return response
+"""
+
 @app.post("/TaxSelfRAG")
-def PostTaxSelfRAG(input: InputQuery):
-    response = Tax_Self_RAG(input.file, 
-                            input.text)
+def PostTaxSelfRAG(receipt, input: InputQuery):
+    receipt_infromation = Get_Receipt_Information(receipt)
+    response = Tax_Self_RAG(receipt=receipt_infromation, 
+                            query=input.text)
     return {"reponse": response}
