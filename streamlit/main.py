@@ -170,28 +170,88 @@ occupation = st.selectbox(
     ],
     key="occupation",
 )
-# Interest
-st.markdown("### 15. Interest")
-interest_banks = st.multiselect(
-    "Select the banks where you received interest:",
-    [
-        "ANZ Bank",
-        "Commonwealth Bank of Australia",
-        "National Australia Bank",
-        "Westpac Banking Corporation",
-        "Macquarie Bank",
-        "Bank of Queensland",
-        "Bendigo and Adelaide Bank",
-        "Suncorp Bank",
-        "ASB Bank (New Zealand)",
-        "BNZ (Bank of New Zealand)",
-    ],
-    key="interest_banks",
-)
+# # Interest
+# st.markdown("### 15. Interest")
+# interest_banks = st.multiselect(
+#     "Select the banks where you received interest:",
+#     [
+#         "ANZ Bank",
+#         "Commonwealth Bank of Australia",
+#         "National Australia Bank",
+#         "Westpac Banking Corporation",
+#         "Macquarie Bank",
+#         "Bank of Queensland",
+#         "Bendigo and Adelaide Bank",
+#         "Suncorp Bank",
+#         "ASB Bank (New Zealand)",
+#         "BNZ (Bank of New Zealand)",
+#     ],
+#     key="interest_banks",
+# )
 
-# Dividends
-st.markdown("### 16. Dividends")
-dividend_sources = st.multiselect(
+# # Dividends
+# st.markdown("### 16. Dividends")
+# dividend_sources = st.multiselect(
+#     "Select the companies from which you received dividends:",
+#     [
+#         "Commonwealth Bank of Australia",
+#         "Westpac Banking Corporation",
+#         "National Australia Bank",
+#         "ANZ Bank",
+#         "Telstra",
+#         "Woolworths Group",
+#         "Coles Group",
+#         "BHP",
+#         "Rio Tinto",
+#         "Fortescue Metals Group",
+#     ],
+#     key="dividend_sources",
+# )
+
+# # Other income
+# st.markdown("### 17. Other income")
+# other_income_sources = st.multiselect(
+#     "Select other sources of income:",
+#     [
+#         "CBA (Commonwealth Bank of Australia)",
+#         "Westpac",
+#         "ANZ",
+#         "NAB",
+#         "AMP Limited",
+#         "Suncorp",
+#         "Medibank",
+#         "Insurance Australia Group (IAG)",
+#         "Macquarie Group",
+#         "QBE Insurance",
+#     ],
+#     key="other_income_sources",
+# )
+# 초기 입력 필드 수를 설정합니다.
+
+if "interest_count" not in st.session_state:
+    st.session_state.interest_count = 1
+if "dividend_count" not in st.session_state:
+    st.session_state.dividend_count = 1
+if "other_income_count" not in st.session_state:
+    st.session_state.other_income_count = 1
+
+
+# 새로운 필드를 추가하는 함수
+def add_interest_field():
+    st.session_state.interest_count += 1
+
+
+def add_dividend_field():
+    st.session_state.dividend_count += 1
+
+
+def add_other_income_field():
+    st.session_state.other_income_count += 1
+
+
+# Income statements and payment summaries
+st.markdown("### 15. Salary, wages, allowances, tips ,bonusses etc.")
+salary_bank = st.multiselect(
     "Select the companies from which you received dividends:",
     [
         "Commonwealth Bank of Australia",
@@ -205,36 +265,68 @@ dividend_sources = st.multiselect(
         "Rio Tinto",
         "Fortescue Metals Group",
     ],
-    key="dividend_sources",
+    key="salary_bank",
 )
+
+
+# Interest
+st.markdown("### 16. Interest")
+interest_incomes = []
+for i in range(st.session_state.interest_count):
+    bank_name = st.text_input(f"Enter the bank name {i+1}:", key=f"interest_bank_{i}")
+    interest_amount = st.number_input(
+        f"Enter the interest income from {bank_name}:",
+        min_value=0.0,
+        format="%.2f",
+        key=f"interest_income_amount_{i}",
+    )
+    interest_incomes.append((bank_name, interest_amount))
+
+st.button("Add another bank", on_click=add_interest_field)
+
+# Dividends
+st.markdown("### 17. Dividends")
+dividend_incomes = []
+for i in range(st.session_state.dividend_count):
+    company_name = st.text_input(
+        f"Enter the company name {i+1}:", key=f"dividend_company_{i}"
+    )
+    dividend_amount = st.number_input(
+        f"Enter the dividend income from {company_name}:",
+        min_value=0.0,
+        format="%.2f",
+        key=f"dividend_income_amount_{i}",
+    )
+    dividend_incomes.append((company_name, dividend_amount))
+
+st.button("Add another company", on_click=add_dividend_field)
 
 # Other income
-st.markdown("### 17. Other income")
-other_income_sources = st.multiselect(
-    "Select other sources of income:",
-    [
-        "CBA (Commonwealth Bank of Australia)",
-        "Westpac",
-        "ANZ",
-        "NAB",
-        "AMP Limited",
-        "Suncorp",
-        "Medibank",
-        "Insurance Australia Group (IAG)",
-        "Macquarie Group",
-        "QBE Insurance",
-    ],
-    key="other_income_sources",
-)
+st.markdown("### 18. Other income")
+other_incomes = []
+for i in range(st.session_state.other_income_count):
+    source_name = st.text_input(
+        f"Enter the other income source name {i+1}:", key=f"other_income_source_{i}"
+    )
+    other_income_amount = st.number_input(
+        f"Enter the income from {source_name}:",
+        min_value=0.0,
+        format="%.2f",
+        key=f"other_income_amount_{i}",
+    )
+    other_incomes.append((source_name, other_income_amount))
+
+st.button("Add another income source", on_click=add_other_income_field)
+
 
 # Income tests
-st.markdown("### 18. Income tests")
+st.markdown("### 19. Income tests")
 num_dependent_children = st.number_input(
     "Number of dependent children", min_value=0, key="num_dependent_children"
 )
 
 # Medicare and private health insurance
-st.markdown("### 19. Medicare and private health insurance")
+st.markdown("### 20. Medicare and private health insurance")
 medicare_exemption = st.selectbox(
     "Medicare levy exemption or reduction",
     ["None", "Full exemption", "Partial exemption"],
@@ -252,7 +344,7 @@ private_health_insurance = st.selectbox(
 )
 
 # How did you complete this tax return?
-st.markdown("### 20. How did you complete this tax return?")
+st.markdown("### 21. How did you complete this tax return?")
 tax_return_completion = st.radio(
     "How did you complete this tax return?",
     ["Prepared myself", "Tax Help volunteer"],
@@ -260,7 +352,7 @@ tax_return_completion = st.radio(
 )
 
 # Will you need to lodge an Australian tax return in future years?
-st.markdown("### 21. Will you need to lodge an Australian tax return in future years?")
+st.markdown("### 22. Will you need to lodge an Australian tax return in future years?")
 future_tax_return = st.radio(
     "Will you need to lodge an Australian tax return in future years?",
     ["Yes (or I’m unsure)", "No (this is my final return)"],
@@ -268,7 +360,7 @@ future_tax_return = st.radio(
 )
 
 # 영수증 이미지 업로드 섹션
-st.title("Upload Your Receipts")
+st.title("Upload Your Receipts if you have any")
 uploaded_files = st.file_uploader(
     "Choose receipt images",
     accept_multiple_files=True,
