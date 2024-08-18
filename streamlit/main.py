@@ -310,7 +310,7 @@ pb = Predibase(api_token="pb_DxAFlDvTXviUE9BQ3iyPCw")  # "pb_DxAFlDvTXviUE9BQ3iy
 
 
 # Predibase 모델 설정
-adapter_id = "Occup-deduc-guides-model/7"  # 실제 사용 중인 모델의 어댑터 ID로 교체
+adapter_id = "Occup-deduc-guides-model/11"  # 실제 사용 중인 모델의 어댑터 ID로 교체
 lorax_client = pb.deployments.client(
     "solar-1-mini-chat-240612"
 )  # 실제 클라이언트 설정으로 교체
@@ -318,34 +318,48 @@ lorax_client = pb.deployments.client(
 # 챗봇 섹션
 st.title("Refund Ranger Chatbot")
 
+# 사용자에게 입력받을 occupation 변수
+occupation = "Software Engineer"  # 예시로 occupation 변수를 설정
 
 # 시스템 메시지 추가
-system_message = {
-    "role": "system",
-    "content": (
-        "When a job title is provided, it must be classified into one of the following ATO occupation categories: "
-        "Adult industry workers, Agricultural workers, Apprentices and trainees, Australian Defence Force members, "
-        "Building and construction employees, Bus drivers, Call centre operators, Cleaners, Community support workers and direct carers, "
-        "Doctor, specialist or other medical professionals, Factory workers, Fire fighters, Fitness and sporting industry employees, "
-        "Flight crew, Gaming attendants, Guards and security employees, Hairdressers and beauty professionals, "
-        "Hospitality industry employees, Lawyers, Meat workers, Media professionals, Mining site employees, Nurses and midwives, "
-        "Paramedics, Performing artists, Pilots, Police officers, Professional sportspersons, Real estate employees, Recruitment consultants, "
-        "Retail industry workers, Sales and marketing managers, Teachers and education professionals, Tradespersons, Train drivers, "
-        "Travel agent employees, Truck drivers, IT Professionals, Office workers, Engineers."
-    ),
-}
-
 if "messages" not in st.session_state:
     st.session_state["messages"] = [
         {
+            "role": "system",
+            "content": f"You are a helper for Australian Tax Refund, especially connecting occupations to deduction lists. The customer's job title is: {occupation}.",
+        },
+        {
+            "role": "system",
+            "content": (
+                f"According to the Australian Tax Office (ATO), the job title '{occupation}' must be classified into one of the following ATO occupation categories: "
+                "Adult industry workers, Agricultural workers, Apprentices and trainees, Australian Defence Force members, "
+                "Building and construction employees, Bus drivers, Call centre operators, Cleaners, Community support workers and direct carers, "
+                "Doctor, specialist or other medical professionals, Factory workers, Fire fighters, Fitness and sporting industry employees, "
+                "Flight crew, Gaming attendants, Guards and security employees, Hairdressers and beauty professionals, "
+                "Hospitality industry employees, Lawyers, Meat workers, Media professionals, Mining site employees, Nurses and midwives, "
+                "Paramedics, Performing artists, Pilots, Police officers, Professional sportspersons, Real estate employees, Recruitment consultants, "
+                "Retail industry workers, Sales and marketing managers, Teachers and education professionals, Tradespersons, Train drivers, "
+                "Travel agent employees, Truck drivers, IT Professionals, Office workers, Engineers. "
+                "Please provide occupation category descriptions using full text labels and avoid numerical codes unless specifically requested."
+            ),
+        },
+        {
+            "role": "system",
+            "content": (
+                "When providing responses, base all answers strictly on the ATO's official individual tax refund guidelines. "
+                "Do not reference any information that is not directly derived from the ATO's official documentation."
+            ),
+        },
+        {
             "role": "assistant",
-            "content": "How can I help you for your Occupation and Deduction ?",
-        }
+            "content": "How can I help you with your Occupation and Deduction?",
+        },
     ]
 
-# 이전 메시지 출력
+# 이전 메시지 출력 (시스템 메시지는 제외)
 for msg in st.session_state.messages:
-    st.chat_message(msg["role"]).write(msg["content"])
+    if msg["role"] != "system":  # 시스템 메시지를 출력하지 않음
+        st.chat_message(msg["role"]).write(msg["content"])
 
 # 사용자 입력 처리
 if prompt := st.chat_input():
@@ -354,7 +368,9 @@ if prompt := st.chat_input():
 
     # Predibase 모델 호출
     response = lorax_client.generate(
-        prompt, adapter_id=adapter_id, max_new_tokens=1000  # 필요에 따라 조정 가능
+        prompt,
+        adapter_id=adapter_id,
+        max_new_tokens=1000,  # 필요에 따라 조정 가능
     ).generated_text
 
     # 모델 응답 처리 및 출력
