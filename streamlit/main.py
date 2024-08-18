@@ -138,21 +138,21 @@ other_deductions = st.checkbox("Other deductions", key="other_deductions")
 
 # 이전 소득 연도의 손실
 st.markdown(
-    "### 12. You had tax losses of earlier income years [tax loses of earlier income years](https://www.ato.gov.au/individuals-and-families/your-tax-return/instructions-to-complete-your-tax-return/mytax-instructions/2024/tax-losses-of-earlier-income-years)"
+    "### 11. You had tax losses of earlier income years [tax loses of earlier income years](https://www.ato.gov.au/individuals-and-families/your-tax-return/instructions-to-complete-your-tax-return/mytax-instructions/2024/tax-losses-of-earlier-income-years)"
 )
 tax_losses = st.checkbox(
     "Check if you had tax losses of earlier income years", key="tax_losses"
 )
 
 # 세액 공제 및 조정
-st.markdown("### 13. You are claiming tax offsets or adjustments")
+st.markdown("### 12. You are claiming tax offsets or adjustments")
 claiming_tax_offsets = st.checkbox(
     "Check if you are claiming tax offsets or adjustments",
     key="claiming_tax_offsets",
 )
 
 # Income statements and payment summaries
-st.markdown("### 14. Income statements and payment summaries")
+st.markdown("### 13. Income statements and payment summaries")
 occupation = st.selectbox(
     "Occupation where you earned most income",
     [
@@ -250,7 +250,7 @@ def add_other_income_field():
 
 
 # Income statements and payment summaries
-st.markdown("### 15. Salary, wages, allowances, tips ,bonusses etc.")
+st.markdown("### 14. Salary, wages, allowances, tips ,bonusses etc.")
 salary_bank = st.multiselect(
     "Select the companies from which you received dividends:",
     [
@@ -270,12 +270,12 @@ salary_bank = st.multiselect(
 
 
 # Interest
-st.markdown("### 16. Interest")
+st.markdown("### 15. Interest")
 interest_incomes = []
 for i in range(st.session_state.interest_count):
     bank_name = st.text_input(f"Enter the bank name {i+1}:", key=f"interest_bank_{i}")
     interest_amount = st.number_input(
-        f"Enter the interest income from {bank_name}:",
+        f"Amount $ from {bank_name}:",
         min_value=0.0,
         format="%.2f",
         key=f"interest_income_amount_{i}",
@@ -285,14 +285,14 @@ for i in range(st.session_state.interest_count):
 st.button("Add another bank", on_click=add_interest_field)
 
 # Dividends
-st.markdown("### 17. Dividends")
+st.markdown("### 16. Dividends")
 dividend_incomes = []
 for i in range(st.session_state.dividend_count):
     company_name = st.text_input(
         f"Enter the company name {i+1}:", key=f"dividend_company_{i}"
     )
     dividend_amount = st.number_input(
-        f"Enter the dividend income from {company_name}:",
+        f"Amount $ from {company_name}:",
         min_value=0.0,
         format="%.2f",
         key=f"dividend_income_amount_{i}",
@@ -302,14 +302,14 @@ for i in range(st.session_state.dividend_count):
 st.button("Add another company", on_click=add_dividend_field)
 
 # Other income
-st.markdown("### 18. Other income")
+st.markdown("### 17. Other income")
 other_incomes = []
 for i in range(st.session_state.other_income_count):
     source_name = st.text_input(
         f"Enter the other income source name {i+1}:", key=f"other_income_source_{i}"
     )
     other_income_amount = st.number_input(
-        f"Enter the income from {source_name}:",
+        f"Amount $ from {source_name}:",
         min_value=0.0,
         format="%.2f",
         key=f"other_income_amount_{i}",
@@ -320,13 +320,13 @@ st.button("Add another income source", on_click=add_other_income_field)
 
 
 # Income tests
-st.markdown("### 19. Income tests")
+st.markdown("### 18. Income tests")
 num_dependent_children = st.number_input(
     "Number of dependent children", min_value=0, key="num_dependent_children"
 )
 
 # Medicare and private health insurance
-st.markdown("### 20. Medicare and private health insurance")
+st.markdown("### 19. Medicare and private health insurance")
 medicare_exemption = st.selectbox(
     "Medicare levy exemption or reduction",
     ["None", "Full exemption", "Partial exemption"],
@@ -344,7 +344,7 @@ private_health_insurance = st.selectbox(
 )
 
 # How did you complete this tax return?
-st.markdown("### 21. How did you complete this tax return?")
+st.markdown("### 20. How did you complete this tax return?")
 tax_return_completion = st.radio(
     "How did you complete this tax return?",
     ["Prepared myself", "Tax Help volunteer"],
@@ -352,31 +352,226 @@ tax_return_completion = st.radio(
 )
 
 # Will you need to lodge an Australian tax return in future years?
-st.markdown("### 22. Will you need to lodge an Australian tax return in future years?")
+st.markdown("### 21. Will you need to lodge an Australian tax return in future years?")
 future_tax_return = st.radio(
     "Will you need to lodge an Australian tax return in future years?",
     ["Yes (or I’m unsure)", "No (this is my final return)"],
     key="future_tax_return",
 )
 
-# 영수증 이미지 업로드 섹션
-st.title("Upload Your Receipts if you have any")
-uploaded_files = st.file_uploader(
-    "Choose receipt images",
-    accept_multiple_files=True,
-    type=["png", "jpg", "jpeg"],
-    key="uploaded_files",
+
+# Deduction Title
+st.title("Deduction")
+import streamlit as st
+
+
+# Function to add another item
+def add_item(key_name):
+    st.session_state[key_name] += 1
+
+
+# Initialize session state for each section
+if "car_expense_count" not in st.session_state:
+    st.session_state["car_expense_count"] = 1
+
+if "travel_expense_count" not in st.session_state:
+    st.session_state["travel_expense_count"] = 1
+
+if "clothing_expense_count" not in st.session_state:
+    st.session_state["clothing_expense_count"] = 1
+
+if "education_expense_count" not in st.session_state:
+    st.session_state["education_expense_count"] = 1
+
+if "other_expense_count" not in st.session_state:
+    st.session_state["other_expense_count"] = 1
+
+if "interest_deduction_count" not in st.session_state:
+    st.session_state["interest_deduction_count"] = 1
+
+if "dividend_deduction_count" not in st.session_state:
+    st.session_state["dividend_deduction_count"] = 1
+
+if "gifts_donations_count" not in st.session_state:
+    st.session_state["gifts_donations_count"] = 1
+
+if "tax_affairs_count" not in st.session_state:
+    st.session_state["tax_affairs_count"] = 1
+
+# Work-related car expenses
+st.markdown("### 22. Work-related car expenses")
+for i in range(st.session_state["car_expense_count"]):
+    car_expense_description = st.text_input(
+        f"Your description for car expense {i+1}", key=f"car_expense_description_{i}"
+    )
+    car_expense_amount = st.number_input(
+        f"Amount $ for car expense {i+1}",
+        min_value=0.0,
+        format="%.2f",
+        key=f"car_expense_amount_{i}",
+    )
+st.button("Add another car expense", on_click=add_item, args=("car_expense_count",))
+
+# Work-related travel expenses
+st.markdown("### 23. Work-related travel expenses")
+for i in range(st.session_state["travel_expense_count"]):
+    travel_expense_description = st.text_input(
+        f"Your description for travel expense {i+1}",
+        key=f"travel_expense_description_{i}",
+    )
+    travel_expense_amount = st.number_input(
+        f"Amount $ for travel expense {i+1}",
+        min_value=0.0,
+        format="%.2f",
+        key=f"travel_expense_amount_{i}",
+    )
+st.button(
+    "Add another travel expense", on_click=add_item, args=("travel_expense_count",)
 )
 
-if uploaded_files:
-    for uploaded_file in uploaded_files:
-        st.image(uploaded_file, caption=uploaded_file.name)
+# Work-related clothing, laundry, and dry-cleaning expenses
+st.markdown("### 24. Work-related clothing, laundry, and dry-cleaning expenses")
+for i in range(st.session_state["clothing_expense_count"]):
+    clothing_expense_description = st.text_input(
+        f"Your description for clothing expense {i+1}",
+        key=f"clothing_expense_description_{i}",
+    )
+    clothing_expense_amount = st.number_input(
+        f"Amount $ for clothing expense {i+1}",
+        min_value=0.0,
+        format="%.2f",
+        key=f"clothing_expense_amount_{i}",
+    )
+st.button(
+    "Add another clothing expense", on_click=add_item, args=("clothing_expense_count",)
+)
+
+# Work-related self-education expenses
+st.markdown("### 25. Work-related self-education expenses")
+for i in range(st.session_state["education_expense_count"]):
+    education_expense_description = st.text_input(
+        f"Your description for education expense {i+1}",
+        key=f"education_expense_description_{i}",
+    )
+    education_expense_amount = st.number_input(
+        f"Amount $ for education expense {i+1}",
+        min_value=0.0,
+        format="%.2f",
+        key=f"education_expense_amount_{i}",
+    )
+st.button(
+    "Add another education expense",
+    on_click=add_item,
+    args=("education_expense_count",),
+)
+
+# Other work-related expenses
+st.markdown("### 26. Other work-related expenses")
+for i in range(st.session_state["other_expense_count"]):
+    other_expense_description = st.text_input(
+        f"Your description for other work-related expense {i+1}",
+        key=f"other_expense_description_{i}",
+    )
+    other_expense_amount = st.number_input(
+        f"Amount $ for other work-related expense {i+1}",
+        min_value=0.0,
+        format="%.2f",
+        key=f"other_expense_amount_{i}",
+    )
+st.button(
+    "Add another other work-related expense",
+    on_click=add_item,
+    args=("other_expense_count",),
+)
+
+# Interest Deductions
+st.markdown("### 27. Interest Deductions")
+for i in range(st.session_state["interest_deduction_count"]):
+    interest_deduction_description = st.text_input(
+        f"Your description for interest deduction {i+1}",
+        key=f"interest_deduction_description_{i}",
+    )
+    interest_deduction_amount = st.number_input(
+        f"Amount $ for interest deduction {i+1}",
+        min_value=0.0,
+        format="%.2f",
+        key=f"interest_deduction_amount_{i}",
+    )
+st.button(
+    "Add another interest deduction",
+    on_click=add_item,
+    args=("interest_deduction_count",),
+)
+
+# Dividend deductions
+st.markdown("### 28. Dividend deductions")
+for i in range(st.session_state["dividend_deduction_count"]):
+    dividend_deduction_description = st.text_input(
+        f"Your description for dividend deduction {i+1}",
+        key=f"dividend_deduction_description_{i}",
+    )
+    dividend_deduction_amount = st.number_input(
+        f"Amount $ for dividend deduction {i+1}",
+        min_value=0.0,
+        format="%.2f",
+        key=f"dividend_deduction_amount_{i}",
+    )
+st.button(
+    "Add another dividend deduction",
+    on_click=add_item,
+    args=("dividend_deduction_count",),
+)
+
+# Gifts or donations
+st.markdown("### 29. Gifts or donations")
+for i in range(st.session_state["gifts_donations_count"]):
+    gifts_donations_description = st.text_input(
+        f"Your description for gift or donation {i+1}",
+        key=f"gifts_donations_description_{i}",
+    )
+    gifts_donations_amount = st.number_input(
+        f"Amount $ for gift or donation {i+1}",
+        min_value=0.0,
+        format="%.2f",
+        key=f"gifts_donations_amount_{i}",
+    )
+st.button(
+    "Add another gift or donation", on_click=add_item, args=("gifts_donations_count",)
+)
+
+# Cost of managing tax affairs
+st.markdown("### 30. Cost of managing tax affairs")
+for i in range(st.session_state["tax_affairs_count"]):
+    tax_affairs_description = st.text_input(
+        f"Your description for managing tax affairs {i+1}",
+        key=f"tax_affairs_description_{i}",
+    )
+    tax_affairs_amount = st.number_input(
+        f"Amount $ for managing tax affairs {i+1}",
+        min_value=0.0,
+        format="%.2f",
+        key=f"tax_affairs_amount_{i}",
+    )
+st.button(
+    "Add another tax affairs expense", on_click=add_item, args=("tax_affairs_count",)
+)
+
+# # 영수증 이미지 업로드 섹션
+# st.title("Upload Your Receipts if you have any")
+# uploaded_files = st.file_uploader(
+#     "Choose receipt images",
+#     accept_multiple_files=True,
+#     type=["png", "jpg", "jpeg"],
+#     key="uploaded_files",
+# )
+
+# if uploaded_files:
+#     for uploaded_file in uploaded_files:
+#         st.image(uploaded_file, caption=uploaded_file.name)
 
 # Tax estimate (this would typically be calculated and displayed, but we'll just leave a placeholder here)
-st.markdown("## Tax estimate")
-st.write(
-    "Your tax estimate will be calculated and displayed here once all information is provided."
-)
+st.title("## Tax estimate")
+st.write("여기에 RAG 결과")
 
 # # 챗봇 섹션
 # st.title("Chatbot")
