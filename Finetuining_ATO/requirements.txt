@@ -1,0 +1,7 @@
+requests
+pandas
+predibase
+json
+solar_as_judge
+matplotlib.pyplot
+numpy
