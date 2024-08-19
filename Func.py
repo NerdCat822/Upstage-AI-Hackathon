@@ -1,4 +1,3 @@
-# Func.py
 from pprint import pprint
 import os
 from langchain_upstage import UpstageLayoutAnalysisLoader, ChatUpstage, UpstageGroundednessCheck
@@ -65,35 +64,35 @@ predibase_api_key = os.environ.get("PREDIBASE_API_KEY")
 
 
 def RAG(query, occupation):
-    # 문서 로드
+    # LayoutAnalysis
     layzer = UpstageLayoutAnalysisLoader(
         "deduction_pdfs/Deductions_merged.pdf", use_ocr=True, output_type="html"
     )
     docs = layzer.load()
-    cache_dir = LocalFileStore("./.cache/")
-    # 문서 분할
+    cache_dir = LocalFileStore("./.cache/") # cache
+    
+    # Text Split
     text_splitter = RecursiveCharacterTextSplitter.from_language(
         chunk_size=1000, chunk_overlap=100, language=Language.HTML
     )
     splits = text_splitter.split_documents(docs)
 
+    # Solar-Embedding
     embedding=UpstageEmbeddings(model="solar-embedding-1-large")
     cached_embedding = CacheBackedEmbeddings.from_bytes_store(embedding, cache_dir)
 
+    # Vector Database
     vectorstore = Chroma.from_documents(
         documents=splits,
         embedding=cached_embedding,
     )
 
     retriever = vectorstore.as_retriever()
-    # 문서 검색기
-    #retriever = BM25Retriever.from_documents(splits)
-    #context_docs = retriever.invoke(query)
     
-    # 언어 모델 설정
+    # SolarLLM
     llm = ChatUpstage()
 
-    # 프롬프트 템플릿
+    # Prompt
     prompt = PromptTemplate(
         template = """
         Please provide the most correct answer from the following context.
@@ -106,25 +105,27 @@ def RAG(query, occupation):
         input_variables=["question", "Context"]
     )
     
-    # 체인 설정
+    # Set the retrieval Chain
     setup_and_retrieval = RunnableParallel(
         {"Context": retriever, "question": RunnablePassthrough()}
     )
     rag_chain = setup_and_retrieval | prompt | llm | StrOutputParser()
 
     context_docs = retriever.invoke(query)
-    # 답변 생성
+    
+    # generate the answer
     answer = rag_chain.invoke({"question": query, "Context": context_docs})
     
-    # 그라운드 체크 수행
-    #groundedness_check = UpstageGroundednessCheck()
-    #gc_result = groundedness_check.invoke({"context": context_docs, "answer": answer})
+    # groundedness check failed
+    """
+    groundedness_check = UpstageGroundednessCheck()
+    gc_result = groundedness_check.invoke({"context": context_docs, "answer": answer})
 
-    #if gc_result.lower().startswith("grounded"):
-    #    print("✅ Groundedness check passed")
-    #    answer = gc_result
-    #else:
-    #    print("❌ Groundedness check failed")
-    #    answer = gc_result
-    
+    if gc_result.lower().startswith("grounded"):
+        print("✅ Groundedness check passed")
+        answer = gc_result
+    else:
+        print("❌ Groundedness check failed")
+        answer = gc_result
+    """
     return answer
