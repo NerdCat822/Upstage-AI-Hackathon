@@ -37,11 +37,13 @@ streamlit run main.py
 - Convert documents to maximize RAG performance
 - LangChain provides powerful tools for text splitting and vectorization
 
+
 2. Upstage Solar Embedding
 <img width="954" alt="59" src="https://github.com/user-attachments/assets/221bc90e-741a-4dd1-b117-f10d811fcb36">
 - Solar Embedding-1-large outperforms OpenAI's text-embedding-3-large, delivering superior results across English, Korean, and Japanese languages.
 - designed to tackle complex challenges and revolutionize search systems with its innovative embedding capabilities.
 - Offering exceptional performance at an affordable price, Solar Embedding-1-large sets a new benchmark for embedding models.
+
 
 3. Groundedness Check
 <img width="1250" alt="9" src="https://github.com/user-attachments/assets/6ccd57e1-e1d9-40e1-a7d6-d0b13b568b57">
