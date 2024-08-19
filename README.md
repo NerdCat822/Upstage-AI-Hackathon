@@ -48,21 +48,24 @@ Soon integrated:
     - StreamLit for Python frontend
 ---
 ### Upstage Technology
-#### 1. Layout Analysis
+**1. Layout Analysis**
+
 ![Layout+Analysis_WebHero_1600x900](https://github.com/user-attachments/assets/786bcf20-b340-49bb-aa62-2572c8670ce7)
 - The Layout Analyzer is a tool that accurately recognizes and separates various document elements such as headers, footers, paragraphs, captions, tables, and images. It enables clean data extraction by identifying each element distinctly.
 - Convert documents to maximize RAG performance
 - LangChain provides powerful tools for text splitting and vectorization
 
 
-#### 2. Upstage Solar Embedding
+**2. Upstage Solar Embedding**
+
 <img width="954" alt="59" src="https://github.com/user-attachments/assets/221bc90e-741a-4dd1-b117-f10d811fcb36">
 - Solar Embedding-1-large outperforms OpenAI's text-embedding-3-large, delivering superior results across English, Korean, and Japanese languages.
 - designed to tackle complex challenges and revolutionize search systems with its innovative embedding capabilities.
 - Offering exceptional performance at an affordable price, Solar Embedding-1-large sets a new benchmark for embedding models.
 
 
-#### 3. Groundedness Check
+**3. Groundedness Check**
+
 <img width="1250" alt="9" src="https://github.com/user-attachments/assets/6ccd57e1-e1d9-40e1-a7d6-d0b13b568b57">
 - Groundedness Check enhances system reliability by validating the accuracy of answers before presenting them to the user.
 - This final step ensures precision and reduces the risk of misinformation or hallucination to nearly zero.
