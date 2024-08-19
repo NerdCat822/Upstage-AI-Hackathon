@@ -3,10 +3,13 @@ ReturnRanger
 ![image](https://github.com/user-attachments/assets/00b77793-73af-4fd9-b2c6-973ae84a2339)
 
 # Installation Method
-1. .
+1. First make a virtual environment as needed, and install required packages
+```bash
+pip install -r requirements.txt
+```
 
 # Usage Instructions
-1. .
+1. Then run the streamlit app with,
 ```bash
 streamlit run main.py
 ```
