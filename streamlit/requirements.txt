@@ -1,3 +1,0 @@
-predibase
-streamlit
-transformers
