@@ -66,6 +66,8 @@ if prompt := st.chat_input():
         max_new_tokens=1000,  # 필요에 따라 조정 가능
     ).generated_text
 
+    # # 아니면 여기에 RAG response로 대체 
+    # response = run_rag_model(prompt, occupation)
     # 모델 응답 처리 및 출력
     st.session_state.messages.append({"role": "assistant", "content": response})
     st.chat_message("assistant").write(response)
