@@ -2,16 +2,41 @@ ReturnRanger
 ===
 ![image](https://github.com/user-attachments/assets/00b77793-73af-4fd9-b2c6-973ae84a2339)
 
-# Installation Method
-1. First make a virtual environment as needed, and install required packages
+# Local Setup
+## Installation Method
+1. First make a virtual environment as needed, and install required packages. We're using ```Python 3.11.9```
 ```bash
+virtualenv .venv
+source .venv/bin/activate
 pip install -r requirements.txt
 ```
 
-# Usage Instructions
-1. Then run the streamlit app with,
+2. Create a ```.env``` file and add the following API keys.
+You can get a ```LANGCHAIN_API_KEY``` at [Langchain Settings](https://smith.langchain.com/settings).
+
+```bash
+UPSTAGE_API_KEY='xxxxxxxxxx'
+PREDIBASE_API_KEY='xxxxxxxxxx'
+LANGCHAIN_API_KEY='xxxxxxxxxx'
+```
+
+## Usage Instructions
+1. Then run the Streamlit app with,
 ```bash
 streamlit run main.py
+```
+
+# Streamlit Community Cloud Setup
+### Enter the API keys in Streamlit Community Cloud
+To set the API keys as an environment variable in Streamlit apps, do the following:
+
+1. At the lower right corner, click on `< Manage app` then click on the vertical "..." followed by clicking on `Settings`.
+2. This brings the **App settings**, next click on the `Secrets` tab and paste the API key into the text box as follows:
+
+```bash
+UPSTAGE_API_KEY='xxxxxxxxxx'
+PREDIBASE_API_KEY='xxxxxxxxxx'
+LANGCHAIN_API_KEY='xxxxxxxxxx'
 ```
 
 # Project Overview
