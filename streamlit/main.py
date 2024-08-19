@@ -45,7 +45,7 @@ if "messages" not in st.session_state:
         },
         {
             "role": "assistant",
-            "content": "From your occupation, I can suggest some potential deductions. Would you like to know?" ?",
+            "content": "From your occupation, I can suggest some potential deductions. Would you like to know?",
         },
     ]
 
