@@ -49,6 +49,7 @@ streamlit run main.py
 <img width="1250" alt="9" src="https://github.com/user-attachments/assets/6ccd57e1-e1d9-40e1-a7d6-d0b13b568b57">
 - Groundedness Check enhances system reliability by validating the accuracy of answers before presenting them to the user.
 - This final step ensures precision and reduces the risk of misinformation or hallucination to nearly zero.
+
 -----------------------------------------
 
 ## Inspiration
