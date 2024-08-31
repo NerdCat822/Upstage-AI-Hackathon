@@ -46,7 +46,6 @@ LANGCHAIN_API_KEY='xxxxxxxxxx'
 <img width="1720" alt="image" src="https://github.com/user-attachments/assets/cb6a1fac-7490-49e8-bc3e-39a181baee36">
 <img width="1509" alt="image" src="https://github.com/user-attachments/assets/0f5b9d2c-f3bd-4ac3-b3ad-98c2f5ce648e">
 <img width="1728" alt="image" src="https://github.com/user-attachments/assets/8f688c9e-ae6f-4ae0-bd02-92bc601ee7de">
-<img width="1728" alt="image" src="https://github.com/user-attachments/assets/ecfba190-8dc2-48ea-99cc-c31cde1dcab0">
 
 ---
 # Solution
